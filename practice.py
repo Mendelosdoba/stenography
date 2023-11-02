@@ -13,7 +13,7 @@ class IMG_Stegno:
        
         root.title('Mendel Osdoba')
         root.geometry('500x650')
-        root.iconphoto(False, PhotoImage(file='assets/security.png'))
+        root.iconphoto(False, PhotoImage(file='../assets/security.png'))
 
         root.resizable(width =False, height=False)
         root.config(bg = '#a0d0c0')
